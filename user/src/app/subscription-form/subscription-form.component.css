@@ -1,0 +1,9 @@
+.card{
+    background-color: var(--secondary-color);
+}
+input[text],input[email]{
+    height: 60px;
+    padding-left: 20px;
+    font-size: 13px;
+    width: 100%;
+}
