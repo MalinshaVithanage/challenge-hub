@@ -1,9 +1,28 @@
-.card{
+.card {
     background-color: var(--secondary-color);
-}
-input[text],input[email]{
+    width: 90vw;
+    border: none;
+  }
+  
+  input[type="text"],
+  input[type="email"] {
     height: 60px;
     padding-left: 20px;
     font-size: 13px;
     width: 100%;
-}
+    border: none;
+  }
+  
+  .btn-sub {
+    height: 58px;
+    border: none;
+    font-size: 13px;
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    
+  }
+  
+  .subs-text {
+    width: 500px;
+  }
+  
