@@ -36,7 +36,22 @@ body{
 .bg-theme{
     background-color: var(--primary-color);
 }
- 
+
+.bg-secondary-theme{
+    background-color: var(--secondary-color);
+}
+.text-theme-primary{
+    color: var(--primary-color); 
+}
+.p-5 {
+    overflow: hidden; /* Hide any content that overflows the box */
+}
+
+.p-5 p {
+    margin-bottom: 0; /* Remove default bottom margin of paragraphs */
+    word-wrap: break-word; /* Wrap long words to fit within the box */
+}
+
 input[type="text"], input[type="email"]{
   height: 60px;
   padding-left: 20px;
