@@ -25,7 +25,38 @@ body{
 .nav-item .nav-link {
     color: var(--primary-color) ; 
   }
-  .card{
+.card{
     border: none;
     box-shadow: 0px 0px 33px -10px rgba(71, 114, 254, 0.3);
+}
+.shadow-effect{
+    border: none;
+    box-shadow: 0px 0px 33px -10px rgba(71, 114, 254, 0.3);
+}
+.bg-theme{
+    background-color: var(--primary-color);
+}
+ 
+input[type="text"], input[type="email"]{
+  height: 60px;
+  padding-left: 20px;
+  font-size: 13px;
+  width: 99%;
+  border: none;
+ 
+}
+
+.btn-theme{
+  height: 58px;
+  border: none;
+  font-size: 13px;
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+  
+}
+.ml-3 {
+    margin-left: 0.75rem !important;
+}
+.ml-2 {
+    margin-left: 0.5rem !important;
 }

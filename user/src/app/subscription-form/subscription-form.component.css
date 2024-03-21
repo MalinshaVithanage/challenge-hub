@@ -3,17 +3,8 @@
     width: 90vw;
     border: none;
   }
-  
-  input[type="text"],
-  input[type="email"] {
-    height: 60px;
-    padding-left: 20px;
-    font-size: 13px;
-    width: 100%;
-    border: none;
-  }
-  
-  .btn-sub {
+ 
+  .btn-theme{
     height: 58px;
     border: none;
     font-size: 13px;
@@ -21,7 +12,8 @@
     color: var(--secondary-color);
     
   }
-  
+ 
+
   .subs-text {
     width: 500px;
   }

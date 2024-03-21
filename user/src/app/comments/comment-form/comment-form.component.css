@@ -1,0 +1,13 @@
+.btn-theme{
+    height: 58px;
+    border: none;
+    margin-top: .75rem;
+    font-size: 13px;
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    
+  }
+
+  .form-control{
+    border: none;
+  } 
